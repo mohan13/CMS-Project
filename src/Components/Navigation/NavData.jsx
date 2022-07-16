@@ -3,7 +3,7 @@ export const NavData =[
 {
     icon:<FaHome/>,
     title:"Home",
-    path:"/"
+    path:"/Home"
 },{
     icon:<FaChartLine/>,
     title:"Dashboard",
@@ -11,11 +11,16 @@ export const NavData =[
 },
 {
     icon:<FaFile/>,
-    title:"Enter Your Data",
+    title:"Form",
     path:"/form"
 },
 {
     icon:<FaTh/>,
     title:"Contact",
-    path:"/"
+    path:"/Home"
+},
+{
+    icon:<FaTh/>,
+    title:"Firebase",
+    path:"/firebase"
 }]

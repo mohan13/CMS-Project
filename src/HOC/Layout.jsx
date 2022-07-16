@@ -1,20 +1,20 @@
-import React from 'react'
-import Sidebar from '../Components/Navigation/Sidebar/sidbar'
-import Toolbar from '../Components/Navigation/Toolbar/Toolbar'
+import React from "react";
+import Sidebar from "../Components/Navigation/Sidebar/sidbar";
+import Toolbar from "../Components/Navigation/Toolbar/Toolbar";
 const Layout = (props) => {
   return (
     <div>
-      <div className='flex w-full'>
+      <div className="flex w-full">
         <div>
-      <Sidebar/>
+          <Sidebar />
         </div>
-       <div className='w-full'>
-        <Toolbar/>
-        <div>{props.children}</div>
+        <div className="w-full">
+          <Toolbar />
+          <div>{props.children}</div>
         </div>
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default Layout
+export default Layout;
